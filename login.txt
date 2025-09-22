@@ -1,0 +1,6 @@
+what will be the main elements of this project
+1) login page
+2) Accept username and password
+3) session store
+4) redirect to the Thank you page after login
+5) logout after that
