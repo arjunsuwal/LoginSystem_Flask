@@ -4,3 +4,25 @@ what will be the main elements of this project
 3) session store
 4) redirect to the Thank you page after login
 5) logout after that
+----------------------------------------------
+Jinja 2 is applied now
+1) python values 
+{{variables}}
+
+in this case we are using {{name}}
+<p>Welcome {{name}}</p>
+
+2) Conditional
+{%if%} Write your conditional here {%endif%}
+
+is_topper=True
+{%if is_topper%}
+<p>You are a topper</p>
+{%else%}
+<p>You need to work hard.</p>
+{%endif%}
+
+3) Template inheritance
+we define the base.html first and inherit that to other child html files.
+{% block title%} Write your title here{% endblock title%}
+{% block content%} Write your content here{% endblock %}content
