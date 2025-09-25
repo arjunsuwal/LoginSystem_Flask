@@ -1,3 +1,6 @@
 __pycache__
 app2.py 
 sample.html
+templates/about.html
+templates/home.html
+templates/login.html
